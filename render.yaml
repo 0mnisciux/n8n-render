@@ -10,22 +10,22 @@ services:
     envVars:
       - key: DB_TYPE
         value: postgresdb
-            - key: DB_POSTGRESDB_HOST
-      value: SUPABASE_HOST_HERE
-    - key: DB_POSTGRESDB_DATABASE
-      value: postgres
-    - key: DB_POSTGRESDB_PORT
-      value: "5432"
-    - key: DB_POSTGRESDB_USER
-      value: SUPABASE_USER_HERE
-    - key: DB_POSTGRESDB_PASSWORD
-      value: SUPABASE_PASSWORD_HERE
+      - key: DB_POSTGRESDB_HOST
+        value: db.ywawwxnzgxtaihmizste.supabase.co
+      - key: DB_POSTGRESDB_DATABASE
+        value: postgres
+      - key: DB_POSTGRESDB_PORT
+        value: "5432"
+      - key: DB_POSTGRESDB_USER
+        value: postgres
+      - key: DB_POSTGRESDB_PASSWORD
+        value: Asakapa6x6@$$$
       - key: DB_POSTGRESDB_SCHEMA
         value: public
       - key: WEBHOOK_URL
         value: https://your-n8n-app.onrender.com/
       - key: N8N_ENCRYPTION_KEY
-        value: YOUR_ENCRYPTION_KEY_HERE
+        value: a7f3c9e2b8d4f6a1c5e7d9b2f4a6c8e0d2b5f7a9c1e3d5b7f9a1c3e5d7b9f1a3
       - key: GENERIC_TIMEZONE
         value: America/Sao_Paulo
       - key: TZ
@@ -44,4 +44,3 @@ services:
         value: false
       - key: EXECUTIONS_DATA_SAVE_MANUAL_EXECUTIONS
         value: false
-
