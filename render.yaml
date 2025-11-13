@@ -25,8 +25,7 @@ services:
             - key: DB_POSTGRESDB_SSL
                   value: "true"
       - key: WEBHOOK_URL
-        value: https://n8n-22yn.onrender.com/
-      - key: N8N_ENCRYPTION_KEY
+value: https://n8n.orin.work/      - key: N8N_ENCRYPTION_KEY
         value: a7f3c9e2b8d4f6a1c5e7d9b2f4a6c8e0d2b5f7a9c1e3d5b7f9a1c3e5d7b9f1a3
       - key: GENERIC_TIMEZONE
         value: America/Sao_Paulo
